@@ -1,0 +1,66 @@
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; 
+    }
+}
+
+h1 {
+	text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px; 
+    padding: 10px;
+}
+
+.button {
+    flex: 1; /
+    padding: 15px 20px; 
+    font-size: 16px; 
+    text-align: center; 
+    background-color: #3498db; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    justify-content: space-between;
+}
+
+
+/* コンテナ全体 */
+.search-container {
+    display: flex;
+    align-items: center;         
+    justify-content: center;     
+    gap: 10px;                   
+    padding: 10px;               
+    max-width: 600px;            
+    margin: 0 auto;              
+}
+
+/* 検索バー */
+.search-bar {
+    flex: 1;                    
+    padding: 15px;               
+    font-size: 16px;            
+    border: 1px solid #ccc;      
+    border-radius: 5px;          
+}
+
+/* 検索ボタン */
+.search-button {
+    padding: 15px 20px;          
+    font-size: 16px;             
+    background-color: #3498db;   
+    color: white;                
+    border: none;                
+    border-radius: 5px;          
+    cursor: pointer;             
+}
+
+/* ホバーエフェクト（任意） */
+.search-button:hover {
+    background-color: #2980b9;   
+}
